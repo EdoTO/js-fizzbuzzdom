@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    color: white;
+}
+
+.box-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 20px;
+    max-width: 750px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(14, 46, 104);
+}
+
+.box-wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    aspect-ratio: 1;
+}
+
+.bg-green {
+    background-color: rgb(42, 131, 42);
+}
+
+.bg-red {
+    background-color: rgb(182, 44, 44);
+}
+
+.bg-yellow {
+    background-color: rgb(185, 185, 0);
+}
+
+.bg-blue {
+    background-color: rgb(0, 119, 255);
+}
